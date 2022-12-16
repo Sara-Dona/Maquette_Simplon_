@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body .titulo{
+    margin: 33px;
+}
+
+body {
+
+    background: #E5E5E5;
+    margin-top: 60px;
+}
+
+.logo:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+header {
+    position: absolute;
+    color: black;
+    width: 97%;
+    height: 8hv;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 560px;
+
+}
+.toggle { 
+    display: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;   
+}
+
+.logo {
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.ouvrir:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+.fermer:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+/*.menu li a {
+   
+        margin: 343px 0px 0px 57px;
+}*/
+
+/*ul {
+    display: inline;
+    list-style: none;
+}*/
+
+.flex {
+    display: flex;
+}
+
+hr {
+    
+    border: 1px solid #ffffff;
+    width: 1226px;
+    margin:     102px 0px 39px 0px;
+}
+
+section, .container {
+    width: min(1196px, 100%);
+    margin: auto;
+}
+
+#simplon .container{
+    background: white;
+    padding: 45px 0px 45px 60px;
+    margin: 39px, 122px;
+    gap: 20px;
+    height: 514px;
+}
+
+.logoS:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+    cursor: pointer;
+}
+
+.container h1{
+    color: #CF3034;
+}
+
+.container .simplon-texte {
+    flex-direction: column;
+}
+
+.buttonRed {
+    background-color: #CF3034;
+    border-radius: 6px;
+    color: #ffffff ;
+    width: 193px;
+    height: 52px;
+    border: none;
+    font-size: 18px;
+    padding-top: 13px;
+    text-align: center;
+    margin: 49px 19px 0px 0px;
+    text-decoration: none;   
+}
+
+.buttonWhite{
+    border-radius: 6px;
+    width: 193px;
+    height: 52px;
+    color: #CF3034;
+    font-size: 18px;
+    line-height: 24.55px;
+    border: 1.5px solid #CF3034 ;
+    background: #ffffff;
+    padding-top: 13px;
+    text-align: center;
+    margin: 49px 19px 0px 0px;
+    text-decoration: none;   
+}
+
+.buttonWhite:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+.buttonRed:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+/*#simplon .img{
+    width: 100%;
+    max-width: 100%;
+}
+*/
+#simplon h1 {
+    margin: 49px 0px 12px;
+}
+
+#simplon p {
+    margin: 12px 0px;
+}
+/*.alumnos {
+    width: 578px;
+    height: 424px
+}
+*/
+/*#simplon2 h1{
+    font-size: 38px;
+    line-height: 43px;
+}*/
+
+#simplon .alumnosDerecha {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.notreImpact{
+    font-size: 38px;
+    margin: 100px 0px 50px   
+}
+
+.parents {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 254px;
+    width: 197px;
+    background: #FFFFFF;
+    padding: 31px 20%;
+}
+
+.box a {
+    align-self: flex-end;
+}
+
+.box h1 {
+    font-size: 64px;
+    color: #CF3034;
+}
+
+.box p {
+    font-size: 24px;
+}
+
+.box4 {
+    background: #CF3034;
+    color: #FFFFFF;
+}
+
+.a {
+    align-items: flex-end;
+}
+
+.flechShad:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+#simplon2 .box {
+    display: flex;
+    padding: 18px;  
+}
+
+#simplon2 {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.temoignagesFirst {
+    font-size: 38px;
+    margin: 100px 0px 50px;
+}
+
+#section3 .boite {
+    background: #FFFFFF;
+    gap: 20px;
+    flex-flow: row;
+}
+
+#section3 .comillas {
+    width: 43px;  
+    height: 109px;
+    font-size: 96px;
+    color: #CF3034;
+}
+
+#section3 .temoignages {
+    font-size: 18px;
+    margin: 56px;
+    flex-direction: column;     
+}
+
+.temoignages p {
+    margin: 0px 0px 22px;
+}
+
+#section3 img {
+    width: 249px;
+    height: 333px;
+    margin: 71px 59px;
+    cursor: pointer;
+}
+
+
+/*.boite .jonathan{
+    width: 439px;
+    height: 50px;
+    margin: 22px 59px 71px;
+    flex-direction: column;
+
+}  */
+/*#section3 .boite > *{ 
+    width: min(650px, 100%);
+}
+@media (max-width: 1100px){
+    #section3 .boite{
+        flex-direction: column;
+    }
+}*/
+.apprentis {
+    font-size: 38px;
+    margin: 100px 0px 50px;
+}
+
+#section4 .containerphoto {
+    height: 375px;
+    background-image: url("img/img-apprentis.jpg");
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.petitContainer {
+    background: #FFFFFF;
+    width: 511px;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 40px 35px;   
+}    
+
+.fotopetitcontainer {
+    display: none;
+}
+
+.petitContainer h1 {
+    font-size: 24px;
+}
+
+.petitContainer p {
+    font-size: 18px;
+}
+
+.buttonRed2 {
+    width: 193px;
+    height: 52px;
+    background: #CF3034;
+    color: #FFFFFF;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 38px 13px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+#section4 .buttonRed2:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+}
+
+#section5 .containerLogo {
+    height: 163px;
+    background: #ffffff;
+}
+
+.soutien {
+    font-size: 38px;
+    margin: 100px 0px 50px;
+}
+
+.Logos {
+    justify-content: center;  
+    padding: 35px 260px 29px;
+    justify-content: space-around;   
+}
+
+.imgSpon:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(176, 109, 109);
+    cursor: pointer;
+}
+
+.containerParent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+footer .containerRed {
+    background: #CF3034;
+    height: 351px;
+}
+
+footer .mediaIcon {
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background:#CF3034;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 29px;
+}
+
+footer .logosMedia {
+    justify-content: center;
+    align-items: center;
+}    
+
+footer .mediaIcon:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(115, 9, 9);
+}
+
+.email {
+    background: #ffffff;
+}
+
+footer h1 {
+    color: #ffffff;
+    font-size: 38px;
+    margin: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.imgIzquierda {
+    margin: 20px;  
+}
+
+.linea {
+    border-right: 2px solid white;
+    padding-right: 28px;
+}
+.textFooter {
+   align-items: center;
+    flex-direction: column;
+}
+
+ /* .menuDernier li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+} */
+.menuDernier {
+    justify-content: center;
+}
+
+.menu2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+} 
+
+.menu2 li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer{
+    padding-top: 157px;
+}
+
+@media all and (max-width: 991px) {
+        .imsSpon {
+        width: 100%;
+        min-width: 1000px;
+        gap: 10px;
+    }
+
+    .parents {
+         
+        margin: 0px 36px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+
+    #section3 img {
+        display: none;
+
+    }
+    
+    .alumnosDerecha {
+        display: none;
+    }
+
+    #section3 .boite {
+        
+        flex-flow: column wrap;
+    }
+    .containerLogo {
+        width: 100%;
+
+    }
+
+    .toggle {
+        display: block;
+        font-size:  2rem;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+    .logo{
+        position: relative;
+        z-index: 20;
+    }
+    .ouvrir {
+        display: block;
+    }
+    
+    .fermer {
+        display: none;
+    }
+
+    .open .ouvrir {
+        display: none;
+    }
+    .open .fermer {
+        display: block;
+    }
+    .menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #E5E6E6;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: space-around;
+        transform: translateX(-100%);
+    }
+    .open .menu {
+        transform: translateX(0);
+    }
+}
+
+@media all and (max-width: 601px) {
+
+    .button {
+        flex-wrap: wrap;
+    }
+    .buttonRed {
+        width: 100%;
+        margin: 20px 19px 0px 0px;
+
+    }
+    .buttonWhite {
+        width: 100%;
+        margin-top: 5px;
+        flex-wrap: wrap;
+    }
+
+    #section4 .containerphoto {
+        background-image: none;
+    }
+
+    .fotopetitcontainer {
+        display: block;
+    }
+
+    .petitContainer {
+        width: 100%;
+        text-align: start;
+         height: 125%;
+        
+    }
+
+    .buttonRed2 {
+
+        width: 100%;
+    }
+}
